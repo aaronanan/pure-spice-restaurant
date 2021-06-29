@@ -16,6 +16,7 @@ const about = () => {
             height={900}
             width={600}
             className="opacity-60"
+            priority={true}
           />
         </div>
         <div className="hidden md:block">

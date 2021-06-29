@@ -13,6 +13,7 @@ const Main = () => {
           src={background}
           alt="Picture of the author"
           className="bg-auto opacity-90"
+          priority={true}
         />
         <div className="absolute xl:top-96 xl:left-72 lg:top-80 lg:left-40 md:top-72 md:left-32 sm:top-52 sm:left-20 top-20 left-7">
           {/* <div className="absolute top-96 left-48"> */}
@@ -46,6 +47,7 @@ const Main = () => {
             src={butterchicken}
             alt="Picture of the author"
             className="rounded-2xl"
+            priority={true}
           />
         </div>
         <input
@@ -63,6 +65,7 @@ const Main = () => {
             src={spoonspice}
             alt="Picture of the author"
             className="opacity-50 rounded-2xl"
+            priority={true}
           />
         </div>
         <input
@@ -106,6 +109,7 @@ const Main = () => {
             width={500}
             height={800}
             className="opacity-60"
+            priority={true}
           />
         </div>
       </div>

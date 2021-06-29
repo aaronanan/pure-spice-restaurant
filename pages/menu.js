@@ -14,6 +14,7 @@ const menu = () => {
             className="opacity-60"
             height={1000}
             width={1000}
+            priority={true}
           />
         </div>
         <div

@@ -17,7 +17,7 @@ const buffet = () => {
           />
         </div> */}
         <div className="hidden md:block">
-          <Image src={spoonspice2} className="opacity-60" />
+          <Image src={spoonspice2} className="opacity-60" priority={true} />
         </div>
         <div className="absolute top-10 left-2 text-white px-2 md:left-1/2 lg:left-2/3">
           <h1 className="text-4xl uppercase font-changa lg:text-5xl">Buffet</h1>
