@@ -4,10 +4,12 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Footer from "../components/Footer";
+import TopBar from "../components/TopBar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
+      <TopBar />
       <Header />
       <Main />
       <Footer />
