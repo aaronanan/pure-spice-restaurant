@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <>
       <div
-        className="h-20 flex-row flex items-center justify-between rounded-b-lg"
+        className="h-20 flex-row flex items-center justify-between"
         style={{ backgroundColor: "#10161C" }}
       >
         <Link href="/">
@@ -63,8 +63,8 @@ const Header = () => {
         leaveTo="transform opacity-0 scale-95"
       > */}
       <div
-        className="w-screen absolute z-50 opacity-90"
-        style={{ backgroundColor: "#2A3540" }}
+        className="w-screen absolute z-50 opacity-95"
+        style={{ backgroundColor: "#272d32" }}
       >
         {toggleMenu && (
           <div className="flex flex-col">
