@@ -37,7 +37,47 @@ const menuItems = [
       },
     ],
   },
-  { name: "Vegetable Specialties", items: [] },
+  {
+    name: "Vegetable Specialties",
+    items: [
+      {
+        food: "Chickpea",
+        desc: "Chickpea curry is a tantalizing balance of spicy, tangy, and sweet",
+      },
+      {
+        food: "Spinach Cheese",
+        desc: "Commonly known as Palak Paneer, it is a rich and creamy, made from spinach and the paneer cheese",
+      },
+      {
+        food: "Eggplant",
+        desc: "Eggplant offer a mild flavor with sweet notes and a creamy texture",
+      },
+      {
+        food: "Butter Mixed Vegetables",
+        desc: "Butter mixed vegetables has a mildly sweet flavor resulting from the spiced tomato, butter, and cream sauce",
+      },
+      {
+        food: "Mixed Vegetable Kurma",
+        desc: "Mixed vegetable korma has pleasant aroma and spice due to its buttermilk or yogurt base",
+      },
+      {
+        food: "Mixed Vegetable Curry",
+        desc: "Mixed vegetable curry has a addictive and aromatic flavor from its coconut milk base",
+      },
+      {
+        food: "Green Peas & Cheese",
+        desc: "Commonly known as Matar Paneer, it is rich and creamy, made from peas and the creamy paneer",
+      },
+      {
+        food: "Cauliflower Potato",
+        desc: "Commonly known as Aloo Gobi, it has a unique texture that is packed with flavors",
+      },
+      {
+        food: "Butter Paneer",
+        desc: "Commonly known as Paneer Makhani, it has extremely smooth texture from the tomato, butter and cream base paired with paneer cheese",
+      },
+    ],
+  },
   { name: "Chicken Specialties", items: [] },
   {
     name: "Beef Specialties",
@@ -69,15 +109,15 @@ const MenuSlider = ({ data }) => {
         className="text-white px-5 font-changa absolute right-0 h-full top-0 bg-white lg:w-2/3 md:w-3/4"
         style={{ backgroundColor: "#10161C" }}
       >
-        <hr className="w-1/2 mx-auto mt-10 border-gold" />
-        <h1 className="text-4xl uppercase font-changa lg:text-5xl text-center mt-4">
+        <hr className="w-1/2 mx-auto mt-3 border-gold" />
+        <h1 className="text-3xl uppercase font-changa lg:text-4xl text-center mt-2">
           {data.name}
         </h1>
-        <hr className="w-2/3 mx-auto mt-4 border-gold mb-10" />
+        <hr className="w-2/3 mx-auto mt-2 border-gold mb-10" />
         {data.items.map((food, index) => (
           <div className="pb-5" key={index}>
-            <h1 className="font-semibold lg:text-xl">{food.food}</h1>
-            <h1 className="font-extralight lg:text-lg">{food.desc}</h1>
+            <h1 className="font-semibold lg:text-lg">{food.food}</h1>
+            <h1 className="font-extralight lg:text-md">{food.desc}</h1>
           </div>
         ))}
       </div>
@@ -90,13 +130,15 @@ const menu = () => {
     <div>
       <Header />
       <div className="relative pb-1 md:pb-0 hidden md:block">
-        <Image
-          src={curry}
-          className="opacity-60"
-          height={1000}
-          width={1000}
-          priority={true}
-        />
+        {/* <div className="min-w-full h-1/2">
+          <Image
+            src={curry}
+            className="opacity-60"
+            priority={true}
+            height={1500}
+          />
+        </div> */}
+        <div className="backgroundImage h-screen"></div>
         {/* <div className="bg-red-900 h-full top-0 left-0 absolute w-full"></div> */}
 
         <div
