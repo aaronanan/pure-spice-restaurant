@@ -69,16 +69,16 @@ const Header = () => {
         {toggleMenu && (
           <div className="flex flex-col">
             {navigation.map((item, index) => (
-              <>
+              <div key={index}>
                 <div className="p-5">
-                  <Link href={item.ref} key={index}>
+                  <Link href={item.ref}>
                     <a className="text-white font-changa text-xl font-medium">
                       {item.name}
                     </a>
                   </Link>
                 </div>
                 {index != navigation.length - 1 && <hr />}
-              </>
+              </div>
             ))}
           </div>
         )}
