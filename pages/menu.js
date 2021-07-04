@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Header from "../components/Header";
 import curry from "../assets/curry.jpg";
+import Head from "next/head";
 
 const menuItems = [
   {
@@ -128,6 +129,11 @@ const MenuSlider = ({ data }) => {
 const menu = () => {
   return (
     <div>
+      <Head>
+        <title>Menu - Pure Spice</title>
+        <meta name="description" content="Pure Spice Restuarant Menu" />
+        <link rel="icon" href="/spice.png" />
+      </Head>
       <Header />
       <div className="relative pb-1 md:pb-0 hidden md:block">
         {/* <div className="min-w-full h-1/2">
@@ -138,7 +144,7 @@ const menu = () => {
             height={1500}
           />
         </div> */}
-        <div className="backgroundImageMenu h-screen"></div>
+        <div className="backgroundImageMenu h-screen opacity-60"></div>
         {/* <div className="bg-red-900 h-full top-0 left-0 absolute w-full"></div> */}
 
         <div

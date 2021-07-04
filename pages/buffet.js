@@ -3,10 +3,16 @@ import Header from "../components/Header";
 import spoonspice2 from "../assets/spoonspice2.jpg";
 import Image from "next/image";
 import Footer from "../components/Footer";
+import Head from "next/head";
 
 const buffet = () => {
   return (
     <div>
+      <Head>
+        <title>Buffet - Pure Spice</title>
+        <meta name="description" content="Pure Spice Restuarant Buffet" />
+        <link rel="icon" href="/spice.png" />
+      </Head>
       <Header />
       <div className="relative pb-1 md:pb-0">
         <div className="backgroundSpoonSpice h-screen opacity-80" />

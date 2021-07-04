@@ -2,12 +2,18 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
+import Head from "next/head";
 
 import spoonspice2 from "../assets/spoonspice2.jpg";
 
 const about = () => {
   return (
     <div className="">
+      <Head>
+        <title>About - Pure Spice</title>
+        <meta name="description" content="Pure Spice Restuarant About" />
+        <link rel="icon" href="/spice.png" />
+      </Head>
       <Header />
       <div className="relative pb-1 md:pb-0">
         <div className="backgroundSpoonSpice h-screen opacity-80" />

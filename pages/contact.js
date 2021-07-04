@@ -4,10 +4,16 @@ import spoonspice2 from "../assets/spoonspice2.jpg";
 import Image from "next/image";
 import { IoLocationSharp, IoCallSharp } from "react-icons/io5";
 import Footer from "../components/Footer";
+import Head from "next/head";
 
 const contact = () => {
   return (
     <div>
+      <Head>
+        <title>Contact - Pure Spice</title>
+        <meta name="description" content="Pure Spice Restuarant Contact" />
+        <link rel="icon" href="/spice.png" />
+      </Head>
       <Header />
       <div className="relative pb-1 md:pb-0">
         <div className="backgroundSpoonSpice h-screen opacity-80" />

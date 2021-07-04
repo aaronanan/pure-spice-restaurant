@@ -2,7 +2,7 @@ import React from "react";
 import background from "../assets/background.jpg";
 import spoonspice from "../assets/spoonspice.jpg";
 import spoon from "../assets/spoon.jpg";
-import butterchicken from "../assets/butterchicken.png";
+import butterchicken from "../assets/butterchicken.jpg";
 import Image from "next/image";
 
 const Main = () => {
@@ -54,7 +54,7 @@ const Main = () => {
           <Image
             src={butterchicken}
             alt="Picture of the author"
-            className="rounded-2xl"
+            className="rounded-2xl opacity-50"
             priority={true}
           />
         </div>
