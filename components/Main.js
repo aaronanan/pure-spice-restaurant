@@ -9,30 +9,38 @@ const Main = () => {
   return (
     <div className="pb-60">
       <div className="relative">
-        <Image
+        {/* <Image
           src={background}
           alt="Picture of the author"
           className="bg-auto opacity-90"
           priority={true}
+        /> */}
+        <div
+          className="backgroundHome opacity-80 md:hidden"
+          style={{ height: "60vh" }}
         />
-        <div className="absolute xl:top-96 xl:left-72 lg:top-80 lg:left-40 md:top-72 md:left-32 sm:top-52 sm:left-20 top-20 left-7">
+        <div
+          className="backgroundHome opacity-80 hidden md:block"
+          style={{ height: "90vh" }}
+        />
+        <div className="absolute xl:top-96 xl:left-72 lg:top-80 lg:left-40 md:top-72 md:left-32 sm:top-52 top-1/2 left-12">
           {/* <div className="absolute top-96 left-48"> */}
           <h1 className="md:text-5xl text-logo font-bold text-3xl font-bubblegum">
             Pure Spice
           </h1>
-          <h2 className="md:text-2xl text-xl text-logo font-bold font-bubblegum">
+          <h2 className="md:text-2xl text-xl text-logo font-bold font-bubblegum md:tracking-widest tracking-wide">
             Sri Lankan & South Indian Cuisine
           </h2>
           <div className="flex flex-row justify-between">
             <input
               type="button"
               value="Order Pick Up"
-              className="md:w-36 md:h-10 w-28 h-8 font-bold text-md mt-5 bg-pickup hover:bg-pickup-dark font-changa"
+              className="md:w-44 md:h-12 w-32 h-10 font-bold md:text-lg text-md mt-5 bg-pickup hover:bg-pickup-dark font-changa"
             />
             <input
               type="button"
               value="Delivery"
-              className="md:w-32 md:h-10 w-28 h-8 font-semibold text-md mt-5 bg-transparent border-4 text-white border-gold hover:border-gold-dark hover:bg-gold-dark font-changa"
+              className="md:w-44 md:h-12 w-32 h-10 font-semibold md:text-lg text-md mt-5 bg-transparent border-4 text-white border-gold hover:border-gold-dark hover:bg-gold-dark font-changa"
               // style={{ borderColor: "#A88544" }}
             />
           </div>

@@ -13,10 +13,22 @@
     -1px 0 0 #ac7612;
 }
 
-.backgroundImage {
+.backgroundImageMenu {
   background-image: url("../assets/curry.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.backgroundSpoonSpice {
+  background-image: url("../assets/spoonspice2.jpg");
+  background-size: cover;
+  background-position: right;
+}
+
+.backgroundHome {
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 body {

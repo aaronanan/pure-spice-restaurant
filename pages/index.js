@@ -9,6 +9,11 @@ import TopBar from "../components/TopBar";
 export default function Home() {
   return (
     <div className="relative">
+      <Head>
+        <title>Pure Spice</title>
+        <meta name="description" content="Pure Spice Restuarant" />
+        <link rel="icon" href="/spice.png" />
+      </Head>
       <TopBar />
       <Header />
       <Main />

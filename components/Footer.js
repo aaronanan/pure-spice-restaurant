@@ -3,7 +3,7 @@ import { IoLocationSharp, IoCallSharp } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <footer className="md:h-28 h-36 bg-white flex flex-row justify-between items-center md:px-10 rounded-t-3xl px-2 flex-wrap bottom-0 -mt-1">
+    <footer className="md:h-28 h-36 bg-white flex flex-row justify-between items-center md:px-10 px-2 flex-wrap bottom-0 -mt-1">
       <div className="mx-auto md:mx-0">
         <h1 className="md:text-5xl text-logo font-bold text-2xl font-bubblegum">
           Pure Spice

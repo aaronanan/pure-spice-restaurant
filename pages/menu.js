@@ -106,7 +106,7 @@ const MenuSlider = ({ data }) => {
   return (
     <>
       <div
-        className="text-white px-5 font-changa absolute right-0 h-full top-0 bg-white lg:w-2/3 md:w-3/4"
+        className="text-white px-5 font-changa absolute right-0 h-auto min-h-screen top-0 bg-white lg:w-2/3 md:w-3/4"
         style={{ backgroundColor: "#10161C" }}
       >
         <hr className="w-1/2 mx-auto mt-3 border-gold" />
@@ -138,7 +138,7 @@ const menu = () => {
             height={1500}
           />
         </div> */}
-        <div className="backgroundImage h-screen"></div>
+        <div className="backgroundImageMenu h-screen"></div>
         {/* <div className="bg-red-900 h-full top-0 left-0 absolute w-full"></div> */}
 
         <div
