@@ -4,6 +4,7 @@ import spoonspice from "../assets/spoonspice.jpg";
 import spoon from "../assets/spoon.jpg";
 import butterchicken from "../assets/butterchicken.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -47,10 +48,10 @@ const Main = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-4xl text-center text-gold font-medium font-changa mt-16">
+        <h1 className="text-3xl md:text-4xl text-center text-gold font-medium font-changa mt-16">
           Great authenic food made with love and joy
         </h1>
-        <div className="mx-10 mt-10">
+        <div className="md:mx-10 mt-10 mx-2">
           <Image
             src={butterchicken}
             alt="Picture of the author"
@@ -58,17 +59,19 @@ const Main = () => {
             priority={true}
           />
         </div>
-        <input
-          className="md:w-60 md:h-16 w-52 h-14 bg-blood hover:bg-blood-dark rounded-full text-white font-changa font-semibold text-2xl mx-auto block mt mt-6"
-          value="Our Menu"
-          type="button"
-        />
+        <Link href="/menu">
+          <input
+            className="md:w-60 md:h-16 w-52 h-14 bg-blood hover:bg-blood-dark rounded-full text-white font-changa font-semibold text-2xl mx-auto block mt mt-6"
+            value="Our Menu"
+            type="button"
+          />
+        </Link>
       </div>
       <div>
-        <h1 className="text-white text-4xl text-center font-medium font-changa mt-20">
-          Taste that comes from true honest hard <br /> work and experience
+        <h1 className="text-white text-3xl md:text-4xl text-center font-medium font-changa mt-20">
+          Taste that comes from true honest hard work and experience
         </h1>
-        <div className="mx-10 mt-10">
+        <div className="md:mx-10 mt-10 mx-2">
           <Image
             src={spoonspice}
             alt="Picture of the author"
@@ -76,11 +79,13 @@ const Main = () => {
             priority={true}
           />
         </div>
-        <input
-          className="md:w-60 md:h-16 w-52 h-14 bg-blood hover:bg-blood-dark rounded-full text-white font-changa font-semibold text-2xl mx-auto block mt mt-6"
-          value="About"
-          type="button"
-        />
+        <Link href="/about">
+          <input
+            className="md:w-60 md:h-16 w-52 h-14 bg-blood hover:bg-blood-dark rounded-full text-white font-changa font-semibold text-2xl mx-auto block mt mt-6"
+            value="About"
+            type="button"
+          />
+        </Link>
       </div>
       <div className="flex flex-row justify-around mt-16 lg:px-20 md:px-12 px-5">
         <div className="md:w-1/2">
@@ -88,11 +93,13 @@ const Main = () => {
             We provide private dining for certain lunch & dinner paarties.
             Hospitality and happiness are two things we do right.
           </h1>
-          <input
-            className="md:w-60 md:h-16 w-52 h-14 bg-blood hover:bg-blood-dark rounded-full text-white font-changa font-semibold text-2xl lg:mt-16 mt-10 mx-auto block"
-            value="Contact Us"
-            type="button"
-          />
+          <Link href="/contact">
+            <input
+              className="md:w-60 md:h-16 w-52 h-14 bg-blood hover:bg-blood-dark rounded-full text-white font-changa font-semibold text-2xl lg:mt-16 mt-10 mx-auto block"
+              value="Contact Us"
+              type="button"
+            />
+          </Link>
 
           <h1 className="text-white lg:text-4xl text-3xl font-medium font-changa lg:mt-40 mt-20">
             Hours of Operation
