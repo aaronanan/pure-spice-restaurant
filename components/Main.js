@@ -90,7 +90,7 @@ const Main = () => {
       <div className="flex flex-row justify-around mt-16 lg:px-20 md:px-12 px-5">
         <div className="md:w-1/2">
           <h1 className="text-white xl:text-3xl lg:text-3xl md:text-2xl text-xl font-medium font-changa mt-20 xl:leading-loose lg:leading-loose md:leading-loose leading-loose">
-            We provide private dining for certain lunch & dinner paarties.
+            We provide private dining for certain lunch & dinner parties.
             Hospitality and happiness are two things we do right.
           </h1>
           <Link href="/contact">

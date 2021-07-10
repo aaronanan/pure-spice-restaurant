@@ -53,7 +53,7 @@ export const MenuItems = [
       },
       {
         food: "Mixed Vegetable Kurma",
-        desc: "Mixed vegetable korma has pleasant aroma and spice due to its buttermilk or yogurt base",
+        desc: "Mixed vegetable kurma has pleasant aroma and spice due to its buttermilk or yogurt base",
       },
       {
         food: "Mixed Vegetable Curry",
@@ -107,7 +107,7 @@ export const MenuItems = [
       },
       {
         food: "Beef Kurma",
-        desc: "Beef korma has pleasant aroma and spice due to its buttermilk or yogurt base",
+        desc: "Beef kurma has pleasant aroma and spice due to its buttermilk or yogurt base",
       },
       {
         food: "Beef Spinach",
@@ -137,7 +137,7 @@ export const MenuItems = [
     items: [
       {
         food: "Fish Kurma",
-        desc: "Fish korma has pleasant aroma and spice due to its buttermilk or yogurt base",
+        desc: "Fish kurma has pleasant aroma and spice due to its buttermilk or yogurt base",
       },
       {
         food: "Fish Curry",
@@ -153,11 +153,11 @@ export const MenuItems = [
       },
       {
         food: "Prawn Kurma",
-        desc: "Prawn korma has pleasant aroma and spice due to its buttermilk or yogurt base",
+        desc: "Prawn kurma has pleasant aroma and spice due to its buttermilk or yogurt base",
       },
       {
         food: "Chili Prawn",
-        desc: "A prawndish with large amounts of vegetables pair with an original chilli sauce",
+        desc: "A prawn dish with large amounts of vegetables pair with an original chilli sauce",
       },
     ],
   },

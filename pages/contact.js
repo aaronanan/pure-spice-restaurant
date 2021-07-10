@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import spoonspice2 from "../assets/spoonspice2.jpg";
 import Image from "next/image";
-import { IoLocationSharp, IoCallSharp } from "react-icons/io5";
+import { IoLocationSharp, IoCallSharp, IoLogoFacebook } from "react-icons/io5";
 import Footer from "../components/Footer";
 import Head from "next/head";
 
@@ -33,19 +33,31 @@ const contact = () => {
           <h1 className="text-4xl uppercase font-changa lg:text-5xl">
             Contact
           </h1>
-          <div className="flex flex-row">
-            {/* <IoLocationSharp /> */}
-            <h1 className="text-3xl font-changa mt-6">Location</h1>
+          <div className="flex flex-row mt-6">
+            <IoLocationSharp size={32} className="mr-1" />
+            <h1 className="text-3xl font-changa">Location</h1>
           </div>
+
           <h1 className="text-2xl font-changa mt-2  text-gold">
             252 Reid Street, Quesnel, BC, Canada V2J 2M3
           </h1>
-          <h1 className="text-3xl font-changa mt-8 ">Call Us</h1>
+
+          <div className="flex flex-row mt-8 items-center">
+            <IoCallSharp size={32} className="mr-1" />
+            <h1 className="text-3xl font-changa">Call Us</h1>
+          </div>
           <h1 className="text-2xl font-changa mt-2  text-gold">
             (236) 424 - 1111
           </h1>
-          <h1 className="text-3xl font-changa mt-8">Reach Us On Social</h1>
-          <h1 className="text-2xl font-changa mt-2  text-gold">Pure Spice</h1>
+          <div className="flex flex-row mt-8 items-center">
+            <IoLogoFacebook size={32} className="mr-2" />
+            <h1 className="text-3xl font-changa">Reach Us On Social</h1>
+          </div>
+          <a href="https://www.facebook.com/Pure252/" target="_blank">
+            <h1 className="text-2xl font-changa mt-2 text-gold font-medium underline">
+              Pure Spice
+            </h1>
+          </a>
         </div>
       </div>
       <Footer />
