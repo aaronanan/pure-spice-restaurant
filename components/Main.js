@@ -37,16 +37,29 @@ const Main = () => {
               type="button"
               value="Order Pick Up"
               className="md:w-44 md:h-12 w-32 h-10 font-bold md:text-lg text-md mt-5 bg-pickup hover:bg-pickup-dark font-changa"
+              data-glf-cuid="fa39485d-e1d6-4091-9af3-854a6ae77878"
+              data-glf-ruid="b6eed492-d82a-45d2-bff4-5a58bb0b97e6"
             />
-            <input
-              type="button"
-              value="Delivery"
-              className="md:w-44 md:h-12 w-32 h-10 font-semibold md:text-lg text-md mt-5 bg-transparent border-4 text-white border-gold hover:border-gold-dark hover:bg-gold-dark font-changa"
-              // style={{ borderColor: "#A88544" }}
-            />
+
+            {/* <span
+              class="md:w-44 md:h-12 w-32 h-10 font-bold md:text-lg text-md mt-5 bg-pickup hover:bg-pickup-dark font-changa text-center"
+              data-glf-cuid="fa39485d-e1d6-4091-9af3-854a6ae77878"
+              data-glf-ruid="b6eed492-d82a-45d2-bff4-5a58bb0b97e6"
+            >
+              Order Pick Up
+            </span> */}
+            <a href="https://www.spyce.ca/" target="_blank">
+              <input
+                type="button"
+                value="Delivery"
+                className="md:w-44 md:h-12 w-32 h-10 font-semibold md:text-lg text-md mt-5 bg-transparent border-4 text-white border-gold hover:border-gold-dark hover:bg-gold-dark font-changa"
+                // style={{ borderColor: "#A88544" }}
+              />
+            </a>
           </div>
         </div>
       </div>
+
       <div>
         <h1 className="text-3xl md:text-4xl text-center text-gold font-medium font-changa mt-16">
           Great authenic food made with love and joy

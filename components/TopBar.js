@@ -9,7 +9,7 @@ const TopBar = () => {
         Order Pick Up Or
       </h1>
       <a className="pt-2" href="https://www.spyce.ca/">
-        <Image src={Spyce} width={100} height={30} />
+        <Image src={Spyce} width={100} height={30} priority={true} />
       </a>
     </div>
   );

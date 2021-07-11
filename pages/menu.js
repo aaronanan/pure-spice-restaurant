@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import curry from "../assets/curry.jpg";
 import Head from "next/head";
 import { MenuItems } from "../MenuItems";
+import { IoDiscSharp } from "react-icons/io5";
 
 const MenuSlider = ({ data }) => {
   return (
@@ -91,10 +92,11 @@ const menu = () => {
                     }}
                   >
                     <div
-                      className="p-5 mt-2 mx-5"
+                      className="p-5 mt-2 mx-5 flex flex-row items-center"
                       style={{ backgroundColor: "#19232c" }}
                     >
-                      <h1 className="text-xl text-white font-changa">
+                      <IoDiscSharp size={30} color="#C4C4C4" />
+                      <h1 className="text-xl text-white font-changa ml-3">
                         {item.name}
                       </h1>
                     </div>
@@ -113,18 +115,19 @@ const menu = () => {
             <div key={index}>
               <a onClick={() => setShowMenu(!showMenu)}>
                 <div
-                  className="p-5 mt-2"
-                  style={{ backgroundColor: "#10161C" }}
+                  className="p-5 flex flex-row items-center justify-between mt-1"
+                  style={{ backgroundColor: "#2A3540" }}
                 >
-                  <h1 className="text-xl text-white font-changa">
+                  <h1 className="text-xl text-white font-changa ml-2">
                     {item.name}
                   </h1>
+                  <IoDiscSharp size={30} color="#10161C" />
                 </div>
               </a>
               {showMenu && (
                 <div
                   className="text-white px-5 font-changa"
-                  style={{ backgroundColor: "#10161C" }}
+                  style={{ backgroundColor: "#2A3540" }}
                 >
                   {item.items.map((food, index) => (
                     <div className="pb-5" key={index}>

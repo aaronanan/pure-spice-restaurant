@@ -38,7 +38,7 @@ const contact = () => {
             <h1 className="text-3xl font-changa">Location</h1>
           </div>
 
-          <h1 className="text-2xl font-changa mt-2  text-gold">
+          <h1 className="text-2xl font-changa mt-2  text-gold ml-9">
             252 Reid Street, Quesnel, BC, Canada V2J 2M3
           </h1>
 
@@ -46,7 +46,7 @@ const contact = () => {
             <IoCallSharp size={32} className="mr-1" />
             <h1 className="text-3xl font-changa">Call Us</h1>
           </div>
-          <h1 className="text-2xl font-changa mt-2  text-gold">
+          <h1 className="text-2xl font-changa mt-2  text-gold ml-9">
             (236) 424 - 1111
           </h1>
           <div className="flex flex-row mt-8 items-center">
@@ -54,7 +54,7 @@ const contact = () => {
             <h1 className="text-3xl font-changa">Reach Us On Social</h1>
           </div>
           <a href="https://www.facebook.com/Pure252/" target="_blank">
-            <h1 className="text-2xl font-changa mt-2 text-gold font-medium underline">
+            <h1 className="text-2xl font-changa mt-2 text-gold ml-10 font-medium underline">
               Pure Spice
             </h1>
           </a>

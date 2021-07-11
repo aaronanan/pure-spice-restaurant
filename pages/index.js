@@ -9,6 +9,11 @@ import TopBar from "../components/TopBar";
 export default function Home() {
   return (
     <div className="relative">
+      <script
+        src="https://www.fbgcdn.com/embedder/js/ewm2.js"
+        defer
+        async
+      ></script>
       <Head>
         <title>Pure Spice</title>
         <meta name="description" content="Pure Spice Restuarant" />
